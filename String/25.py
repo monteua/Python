@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
 Write a Python program to create a Caesar encryption.
 Note : In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift,
