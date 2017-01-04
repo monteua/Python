@@ -8,4 +8,4 @@ def multiply(lst):
         num *= i
     return num
 
-print multiply([1, -5, 25, -6])
+print (multiply([1, -5, 25, -6]))

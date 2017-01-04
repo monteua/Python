@@ -6,4 +6,4 @@ def largest(lst):
     return max(lst)
 
 
-print largest([1, -5, 25, -6])
+print (largest([1, -5, 25, -6]))

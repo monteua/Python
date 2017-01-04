@@ -6,4 +6,4 @@ def smallest(lst):
     return min(lst)
 
 
-print smallest([1, -5, 25, -6])
+print (smallest([1, -5, 25, -6]))
