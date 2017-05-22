@@ -10,7 +10,9 @@ Considering natural numbers of the form, ab, where a, b < 100, what is the maxim
 
 def get_digits_sum(a, b):
     number = str(a ** b)
+    # convert the number to a digit list
     digits_list = [int(i) for i in number]
+    # return the sum of the digits to the caller
     return sum(digits_list)
 
 result = 0
@@ -18,6 +20,7 @@ result = 0
 for a in range(1, 100):
     for b in range(1, 100):
         digital_sum = get_digits_sum(a, b)
+        # searching for the maximum digital sum from the given range from 0 to 100
         if digital_sum > result:
             result = digital_sum
 print("Maximum digital sum is:", result)
